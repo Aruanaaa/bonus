@@ -118,7 +118,7 @@ public class Graph {
         return replacement;
     }
 
-    private Set<Integer> findConnectedComponent(List<Edge> edges, int startVertex) {
+    public Set<Integer> findConnectedComponent(List<Edge> edges, int startVertex) {
         Set<Integer> component = new HashSet<>();
         Queue<Integer> queue = new LinkedList<>();
 
