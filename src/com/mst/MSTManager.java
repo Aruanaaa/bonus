@@ -86,9 +86,9 @@ public class MSTManager {
 
             // Verify the new MST is valid
             if (isValidMST(newMST)) {
-                System.out.println("✓ New MST is valid and connects all vertices");
+                System.out.println("New MST is valid and connects all vertices");
             } else {
-                System.out.println("✗ New MST is invalid");
+                System.out.println("New MST is invalid");
             }
         } else {
             System.out.println("\nNo replacement edge found! Graph cannot be reconnected.");
