@@ -58,7 +58,7 @@ public class MSTManager {
             System.out.println("  " + edge);
         }
 
-        // Find connected components
+        // Find connected components using the public method
         Set<Integer> component1 = graph.findConnectedComponent(remainingMST, removedEdge.getSrc());
         Set<Integer> component2 = graph.findConnectedComponent(remainingMST, removedEdge.getDest());
 
